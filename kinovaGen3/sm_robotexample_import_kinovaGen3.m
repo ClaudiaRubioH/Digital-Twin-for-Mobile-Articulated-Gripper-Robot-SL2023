@@ -2,7 +2,9 @@
 % Copyright 2021-2022 The MathWorks, Inc.
 
 %% Import URDF file to create Simscape Multibody model
-[mdl_h] = smimport('sm_kinovaGen3.urdf','ModelName','sm_kinovaGen3_1_RawImport');
+
+addpath([pwd filesep 'Geometry']);
+[mdl_h] = smimport('sm_kinovaGen3.urdf','ModelName','sm_kinovaGen3_1_Import');
 mdl_name = getfullname(mdl_h);
 
 %% Update diagram, note initial robot position
