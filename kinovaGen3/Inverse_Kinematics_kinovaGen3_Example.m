@@ -28,3 +28,5 @@ show(robot,configSoln);
 xlim([-1.2 1.2])
 ylim([-1.2 1.2])
 zlim([-1.2 1.2])
+
+%%% Try to create to push Minas

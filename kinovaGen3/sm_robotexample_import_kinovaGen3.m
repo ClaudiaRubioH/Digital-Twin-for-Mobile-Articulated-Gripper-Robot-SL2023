@@ -10,3 +10,4 @@ mdl_name = getfullname(mdl_h);
 %% Update diagram, note initial robot position
 set_param(mdl_h,'SimulationCommand','update')
 
+%%%
