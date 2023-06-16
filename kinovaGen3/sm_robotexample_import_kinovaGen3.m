@@ -3,8 +3,8 @@
 
 %% Import URDF file to create Simscape Multibody model
 
-addpath([pwd filesep 'Geometry']);
-[mdl_h] = smimport('sm_kinovaGen3.urdf','ModelName','sm_kinovaGen3_1_Import');
+addpath([pwd filesep 'RobotiqGripper85']);
+[mdl_h] = smimport('robotiq_arg85_description.URDF','ModelName','Robotiq85_Import');
 mdl_name = getfullname(mdl_h);
 
 %% Update diagram, note initial robot position
