@@ -10,7 +10,7 @@ title('STL Mesh')
 edge_points = finger_stl_points.Points;
 points_on_pad_index = find(edge_points(:,1)<(-0.005));
 
-points_on_pad = edge_points(points_on_pad_index,:)
+points_on_pad = edge_points(points_on_pad_index,:);
 save('points_on_pad')
 
 figure(2)
