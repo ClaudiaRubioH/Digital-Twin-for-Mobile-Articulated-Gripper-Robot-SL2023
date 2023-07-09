@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<Created by="" on="06/27/23||15:26:20" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.4.0"/>
+<Created by="" on="07/08/23||14:10:18" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.4.0"/>
 <ModelUnits mass="kilogram" length="millimeter"/>
 <DataUnits mass="kilogram" length="meter"/>
-<RootAssembly name="Three_wheeled_base" uid="Three_wheeled_base" version="201">
+<RootAssembly name="Three_wheeled_base" uid="Three_wheeled_base" version="206">
 <AssemblyFile name="Three_wheeled_base.SLDASM" type="SolidWorks Assembly"/>
 <InstanceTree>
-<Instance name="Big_wheel-1" uid="Big_wheel-1" entityUid="Big_wheel*:*Predeterminado">
-<Transform>
-<Rotation>1 0 0 0 -3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15</Rotation>
-<Translation>-0.069344518002265862 -0.011043067438245969 0.24679075426886479</Translation>
-</Transform>
-</Instance>
-<Instance name="Caster_coupler-1" uid="Caster_coupler-1" entityUid="Caster_coupler*:*Predeterminado">
-<Transform>
-<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
-<Translation>0.12584110741406171 0.0069480822561364961 0.41600001786290569</Translation>
-</Transform>
-</Instance>
-<Instance name="Coupler-1" uid="Coupler-1" entityUid="Coupler*:*Predeterminado">
-<Transform>
-<Rotation>1 0 0 0 -1 6.9829626776862667e-15 0 -6.9829626776862667e-15 -1</Rotation>
-<Translation>-0.08893876069761103 -0.0010519177438657375 0.31992807327308498</Translation>
-</Transform>
-</Instance>
-<Instance name="Coupler-2" uid="Coupler-2" entityUid="Coupler*:*Predeterminado">
+<Instance name="Base-1" uid="Base-1" grounded="true" entityUid="Base*:*Predeterminado">
 <Transform>
 <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
-<Translation>-0.090421710178502396 -0.021051917743863502 0.51207192672691493</Translation>
-</Transform>
-</Instance>
-<Instance name="Small_wheel-2" uid="Small_wheel-2" entityUid="Small_wheel*:*Predeterminado">
-<Transform>
-<Rotation>1 0 0 0 -3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15</Rotation>
-<Translation>0.13614131209756181 -0.071371389857228296 0.41600001786290536</Translation>
+<Translation>0.0058411074140616859 0.01006722214987793 0.41600001786290569</Translation>
 </Transform>
 </Instance>
 <Instance name="Big_wheel-2" uid="Big_wheel-2" entityUid="Big_wheel*:*Predeterminado">
 <Transform>
 <Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
-<Translation>-0.070827467483157214 -0.011060768049487964 0.58520924573113509</Translation>
+<Translation>-0.26659031437607489 -0.012113524990004967 0.73221300401461098</Translation>
 </Transform>
 </Instance>
-<Instance name="Base-1" uid="Base-1" grounded="true" entityUid="Base*:*Predeterminado">
+<Instance name="Coupler-2" uid="Coupler-2" entityUid="Coupler*:*Predeterminado">
 <Transform>
 <Rotation>1 0 0 0 1 0 0 0 1</Rotation>
-<Translation>0.0058411074140616859 0.01006722214987793 0.41600001786290569</Translation>
+<Translation>-0.2861845570714201 -0.022104674684378892 0.65907568501039104</Translation>
+</Transform>
+</Instance>
+<Instance name="Big_wheel-1" uid="Big_wheel-1" entityUid="Big_wheel*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 -3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15</Rotation>
+<Translation>-0.26659031437607494 -0.012095824378760835 0.099787275925360852</Translation>
+</Transform>
+</Instance>
+<Instance name="Caster_coupler-1" uid="Caster_coupler-1" entityUid="Caster_coupler*:*Predeterminado">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>0.25584110741406191 0.0058953253156211116 0.41600001786290558</Translation>
+</Transform>
+</Instance>
+<Instance name="Coupler-1" uid="Coupler-1" entityUid="Coupler*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 -1 6.9829626776862667e-15 0 -6.9829626776862667e-15 -1</Rotation>
+<Translation>-0.28618455707142021 -0.0021046746843800968 0.17292459492958098</Translation>
+</Transform>
+</Instance>
+<Instance name="Small_wheel-2" uid="Small_wheel-2" entityUid="Small_wheel*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 -3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15</Rotation>
+<Translation>0.26614131209756176 -0.072424146797743685 0.41600001786290536</Translation>
 </Transform>
 </Instance>
 </InstanceTree>
@@ -55,14 +55,14 @@
 <InstancePath>
 <Uid>Base-1</Uid>
 </InstancePath>
-<Position>0.12000000000000002 -0.0051191398937414341 0</Position>
+<Position>0.24999999999999994 -0.006171896834256823 0</Position>
 <Axis>0 1 0</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="plane">
 <InstancePath>
 <Uid>Caster_coupler-1</Uid>
 </InstancePath>
-<Position>0 0.002 0</Position>
+<Position>0 0.0020000000000000005 0</Position>
 <Axis>0 1 0</Axis>
 </ConstraintGeometry>
 </Coincident>
@@ -71,7 +71,7 @@
 <InstancePath>
 <Uid>Base-1</Uid>
 </InstancePath>
-<Position>0.12000000000000002 -0.0031191398937414341 0</Position>
+<Position>0.24999999999999994 -0.0041718968342568229 0</Position>
 <Axis>0 -1 0</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="circle">
@@ -87,14 +87,14 @@
 <InstancePath>
 <Uid>Base-1</Uid>
 </InstancePath>
-<Position>-0.009185146235346716 -0.041119139893741434 -0.080916399549415763</Position>
-<Axis>0 0 -1</Axis>
+<Position>-0.20643094260915576 -0.042171896834256824 -0.22791987789291973</Position>
+<Axis>-1.5419764230904949e-16 0 -1</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="plane">
 <InstancePath>
 <Uid>Coupler-1</Uid>
 </InstancePath>
-<Position>0.055594721876326025 0.029999999999999999 -0.01515554504040495</Position>
+<Position>0.055594721876326025 0.030000000000000006 -0.015155545040404922</Position>
 <Axis>-1.1564823173178715e-16 0 -1</Axis>
 </ConstraintGeometry>
 </Coincident>
@@ -103,14 +103,14 @@
 <InstancePath>
 <Uid>Base-1</Uid>
 </InstancePath>
-<Position>0.018814853764653302 -0.0011191398937414349 -1.7862905654641992e-08</Position>
+<Position>0.029569057390844117 -0.0021718968342568229 1.2210708033588702e-07</Position>
 <Axis>0 -1 0</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="plane">
 <InstancePath>
 <Uid>Coupler-1</Uid>
 </InstancePath>
-<Position>-0.0044052781236739585 -0.0099999999999999985 -0.00015554504040493633</Position>
+<Position>-0.0044052781236739724 -0.01 -0.00015554504040490857</Position>
 <Axis>0 -1 0</Axis>
 </ConstraintGeometry>
 </Coincident>
@@ -119,8 +119,8 @@
 <InstancePath>
 <Uid>Base-1</Uid>
 </InstancePath>
-<Position>-0.039185146235346704 -0.0011191398937414349 -0.11171080804510786</Position>
-<Axis>-1 0 6.9388939039072333e-16</Axis>
+<Position>-0.23643094260915579 -0.0021718968342568229 -0.25893987789291972</Position>
+<Axis>-1 0 0</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="plane">
 <InstancePath>
@@ -135,14 +135,14 @@
 <InstancePath>
 <Uid>Big_wheel-1</Uid>
 </InstancePath>
-<Position>4.7918098082522231e-07 0.03429286404462506 8.8503056183998619e-06</Position>
+<Position>4.791809808391001e-07 0.034292864044625046 8.8503056183998619e-06</Position>
 <Axis>0 1 0</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="circle">
 <InstancePath>
 <Uid>Coupler-1</Uid>
 </InstancePath>
-<Position>0.019594721876326021 0.010000000000000002 0.038844454959595098</Position>
+<Position>0.019594721876326049 0.01 0.038844454959595098</Position>
 <Axis>0 0 1</Axis>
 </ConstraintGeometry>
 </Coincident>
@@ -151,14 +151,14 @@
 <InstancePath>
 <Uid>Base-1</Uid>
 </InstancePath>
-<Position>0.018814853764653302 -0.0011191398937414349 -1.7862905654641992e-08</Position>
+<Position>0.029569057390844117 -0.0021718968342568229 1.2210708033588702e-07</Position>
 <Axis>0 -1 0</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="plane">
 <InstancePath>
 <Uid>Coupler-2</Uid>
 </InstancePath>
-<Position>-0.0044052781236739585 0.029999999999999999 -0.00015554504040493633</Position>
+<Position>-0.0044052781236739724 0.029999999999999999 -0.00015554504040493633</Position>
 <Axis>0 1 0</Axis>
 </ConstraintGeometry>
 </Coincident>
@@ -167,8 +167,8 @@
 <InstancePath>
 <Uid>Base-1</Uid>
 </InstancePath>
-<Position>-0.009185146235346716 -0.041119139893741434 0.080916363823604398</Position>
-<Axis>0 0 1</Axis>
+<Position>-0.20643094260915576 -0.042171896834256824 0.2279201221070804</Position>
+<Axis>-1.5419764230904949e-16 0 1</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="plane">
 <InstancePath>
@@ -183,14 +183,14 @@
 <InstancePath>
 <Uid>Big_wheel-2</Uid>
 </InstancePath>
-<Position>4.7918098082522231e-07 0.03429286404462506 8.8503056183981271e-06</Position>
+<Position>4.791809808391001e-07 0.03429286404462506 8.8503056183998619e-06</Position>
 <Axis>0 1 0</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="circle">
 <InstancePath>
 <Uid>Coupler-2</Uid>
 </InstancePath>
-<Position>0.019594721876326021 0.01 0.038844454959595098</Position>
+<Position>0.019594721876326049 0.01 0.038844454959595098</Position>
 <Axis>0 0 1</Axis>
 </ConstraintGeometry>
 </Coincident>
@@ -199,7 +199,7 @@
 <InstancePath>
 <Uid>Caster_coupler-1</Uid>
 </InstancePath>
-<Position>-0.010300204683499764 0.078319472113363528 -0.017500000000000016</Position>
+<Position>-0.010300204683499792 0.078319472113363542 -0.017500000000000016</Position>
 <Axis>0 0 1</Axis>
 </ConstraintGeometry>
 <ConstraintGeometry geomType="line">
@@ -222,22 +222,38 @@
 <InstancePath>
 <Uid>Caster_coupler-1</Uid>
 </InstancePath>
-<Position>-0.021608293717939403 0.086927741103762876 0.0060000000000000053</Position>
+<Position>-0.021608293717939375 0.08692774110376289 0.0060000000000000053</Position>
 <Axis>0 0 -1</Axis>
 </ConstraintGeometry>
 </Distance>
+<Coincident name="Coincidente15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.23643094260915579 -0.0021718968342568229 0.25894012210708045</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-2</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.029999999999999999 0.014844454959595077</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
 </Constraints>
 </RootAssembly>
 <Assemblies>
 </Assemblies>
 <Parts>
-<Part name="Base" uid="Base*:*Predeterminado" version="286">
+<Part name="Base" uid="Base*:*Predeterminado" version="395">
 <ModelUnits mass="kilogram" length="millimeter"/>
 <PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.97607767117845246</Mass>
-<CenterOfMass>-0.017991920677078013 0.001097341850149884 1.7757009431969222e-08</CenterOfMass>
-<Inertia>0.0045890905776528185 0.015907828398537067 0.011481061482023647 4.2546467637782096e-11 2.3139804390193859e-09 -0.00016413556054420021</Inertia>
+<Mass>4.0939511325290869</Mass>
+<CenterOfMass>-0.029173909734820425 0.0021637237870976793 -1.2193449219468822e-07</CenterOfMass>
+<Inertia>0.096866513142333868 0.29024862898909798 0.19360808199441237 -3.334322541978893e-09 1.449314887376242e-07 -0.00065784026696963848</Inertia>
 </MassProperties>
 <GeometryFile name="Base_Predeterminado_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -253,8 +269,8 @@
 <PartFile name="Big_wheel.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
 <Mass>0.50327590935171629</Mass>
-<CenterOfMass>-3.2524636671577913e-07 0.011961839894673035 -6.0071855227817357e-06</CenterOfMass>
-<Inertia>0.001140936144276938 0.0020887777671193554 0.0011405070956067996 -9.3098729506085671e-08 2.424362220962807e-07 -8.4412413953775941e-09</Inertia>
+<CenterOfMass>-3.2524636671591053e-07 0.011961839894673039 -6.0071855227816416e-06</CenterOfMass>
+<Inertia>0.0011409361442769382 0.0020887777671193559 0.0011405070956067996 -9.3098729506085168e-08 2.4243622209628054e-07 -8.4412413953775064e-09</Inertia>
 </MassProperties>
 <GeometryFile name="Big_wheel_Predeterminado_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -265,13 +281,13 @@
 <Shininess>0.3125</Shininess>
 </VisualProperties>
 </Part>
-<Part name="Caster_coupler" uid="Caster_coupler*:*Predeterminado" version="336">
+<Part name="Caster_coupler" uid="Caster_coupler*:*Predeterminado" version="342">
 <ModelUnits mass="kilogram" length="millimeter"/>
 <PartFile name="Caster_coupler.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.022416798235896308</Mass>
-<CenterOfMass>-0.0036394132087487745 0.032758494868609794 -2.0301708256604659e-08</CenterOfMass>
-<Inertia>1.7554252447405236e-05 2.8993416987258617e-06 1.7266577010391765e-05 -1.9465873160168635e-12 -8.048000828731571e-12 2.300059275974483e-06</Inertia>
+<Mass>0.022416798235896304</Mass>
+<CenterOfMass>-0.0036394132087487745 0.032758494868609787 -2.0301708256530861e-08</CenterOfMass>
+<Inertia>1.7554252447405236e-05 2.8993416987258613e-06 1.7266577010391765e-05 -1.9465873160362861e-12 -8.048000828748546e-12 2.3000592759744826e-06</Inertia>
 </MassProperties>
 <GeometryFile name="Caster_coupler_Predeterminado_sldprt.STEP" type="STEP"/>
 <VisualProperties>
@@ -286,8 +302,8 @@
 <ModelUnits mass="kilogram" length="millimeter"/>
 <PartFile name="Coupler.SLDPRT" type="SolidWorks Part"/>
 <MassProperties>
-<Mass>0.16359827627954551</Mass>
-<CenterOfMass>0.004405278123673969 0.01 0.00015554504040492123</CenterOfMass>
+<Mass>0.16359827627954548</Mass>
+<CenterOfMass>0.004405278123673969 0.0099999999999999985 0.00015554504040491866</CenterOfMass>
 <Inertia>3.3241506342814054e-05 0.00027397473287626994 0.00028167260076687067 0 -7.730485274682233e-07 0</Inertia>
 </MassProperties>
 <GeometryFile name="Coupler_Predeterminado_sldprt.STEP" type="STEP"/>
