@@ -23,6 +23,6 @@
 #endif
 #endif
 #if defined(MULTITASKING)
-#error Models using the variable step solvers cannot define MULTITASKING
+#error Models using the variable step solvers cannot define MULTITASKING
 #endif
 #endif
