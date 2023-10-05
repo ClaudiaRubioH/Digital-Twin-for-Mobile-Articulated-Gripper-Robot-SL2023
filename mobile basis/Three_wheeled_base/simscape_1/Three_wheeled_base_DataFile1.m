@@ -204,5 +204,3 @@ smiData.RevoluteJoint(2).ID = "[Big_wheel-1:-:Coupler-1]";
 
 smiData.RevoluteJoint(4).Rz.Pos = 89.999999999999986;  % deg
 smiData.RevoluteJoint(4).ID = "[Big_wheel-2:-:Coupler-2]";
-
-
