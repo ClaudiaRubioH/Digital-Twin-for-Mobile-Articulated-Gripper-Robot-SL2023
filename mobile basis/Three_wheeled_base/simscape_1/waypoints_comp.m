@@ -3,7 +3,7 @@ nPoints=3;
  plotPoint_mtx=zeros(nPoints,3);
 % vct=1000:nPoints:7000;
 % 
-waypoint_mtx= [5 0; 5 5; 0 5] 
+waypoint_mtx= [4 0; 8 0; 12 0] 
 
  for y=1:nPoints
 %     waypoint_mtx(y,1)=vct(y)*1e-3;
