@@ -204,3 +204,36 @@ smiData.RevoluteJoint(2).ID = "[Big_wheel-1:-:Coupler-1]";
 
 smiData.RevoluteJoint(4).Rz.Pos = 89.999999999999986;  % deg
 smiData.RevoluteJoint(4).ID = "[Big_wheel-2:-:Coupler-2]";
+
+%%%
+nPoints=3;
+% waypoint_mtx=zeros(nPoints,2);
+ plotPoint_mtx=zeros(nPoints,3);
+% vct=1000:nPoints:7000;
+% 
+waypoint_mtx= [5 0; 5 5; 0 5] ;
+
+ for y=1:nPoints
+%     waypoint_mtx(y,1)=vct(y)*1e-3;
+%     waypoint_mtx(y,2)=vct(y)*1e-3;
+% 
+     plotPoint_mtx(y,1)=waypoint_mtx(y,1);
+     plotPoint_mtx(y,2)=waypoint_mtx(y,2);
+ end
+
+
+%%% Minas set-up data
+desired_linear_velocity = 0.25;
+platform_destination_mat = [ 1.0 0; 5 0; 0 0; 0 5;
+                             1.0 0; 5 0.25; 0 0; 0 5; 
+                             1.5 0.2; 5 0.5; 0 0; 0 5]  ;
+
+brick_pick_global_xy = platform_destination_mat(2:4:end,:) + [0.50 0.2] ;
+new_column = 0.05 * ones(size(brick_pick_global_xy, 1), 1);
+brick_pick_global_xy = [brick_pick_global_xy, new_column]
+
+brick_place_global_xy = [platform_destination_mat(4,1) platform_destination_mat(4,2)] + [-0.1 0.6] ;
+brick_place_global_xy(2,:) =  brick_place_global_xy(1,:) + [0.22 0];
+new_column = -0.03*ones(size(brick_place_global_xy, 1), 1);
+brick_place_global_xy = [brick_place_global_xy, new_column];
+brick_place_global_xy(3,:) =  brick_place_global_xy(1,:) + [0.11 0 0.12]
