@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/27/23||10:52:10" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Kinova Gen3 Modular Robotic Arm" uid="Kinova Gen3 Modular Robotic Arm" version="104">
+<AssemblyFile name="Kinova Gen3 Modular Robotic Arm.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Kinova Gen3 Modular Robotic Arm.step-1" uid="Kinova Gen3 Modular Robotic Arm.step-1" grounded="true" entityUid="Kinova Gen3 Modular Robotic Arm.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="GEN3 SIMPLIFIED Shoulder.step-1" uid="GEN3 SIMPLIFIED Shoulder.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED Shoulder.step" rigid="true">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0 0 0.16</Translation>
+</Transform>
+<Instance name="GEN3 SIMPLIFIED SHOULDER_1.step-1" uid="GEN3 SIMPLIFIED SHOULDER_1.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED SHOULDER_1.step*:*Predeterminado">
+<Transform>
+<Rotation>1 -3.5394245834634806e-14 -3.9651574518516122e-14 4e-14 0.99241590850741823 0.12292544301891203 3.5000000000000002e-14 -0.12292544301891203 0.99241590850741823</Rotation>
+<Translation>-0.091649969290232003 0.083226395830697006 -0.0055183123797989996</Translation>
+</Transform>
+</Instance>
+<Instance name="KR10643.step-2" uid="KR10643.step-2" grounded="true" entityUid="KR10643.step*:*Predeterminado">
+<Transform>
+<Rotation>-1.0000000000000003e-15 1 -1.0916574993581603e-14 0.99241590850741823 -3.4950890882777644e-16 -0.12292544301891203 -0.12292544301891203 -1.095670813306356e-14 -0.99241590850741823</Rotation>
+<Translation>-0.094024969290033997 0.083226395830694994 -0.0055183123798019998</Translation>
+</Transform>
+</Instance>
+<Instance name="KR10643.step-1" uid="KR10643.step-1" grounded="true" entityUid="KR10643.step*:*Predeterminado">
+<Transform>
+<Rotation>1 -3.5394245834634806e-14 -3.9651574518516122e-14 4e-14 0.99241590850741823 0.12292544301891203 3.5000000000000002e-14 -0.12292544301891203 0.99241590850741823</Rotation>
+<Translation>0.034350030709767998 0.077892160322474993 -0.0048575881235679999</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED HalfArm1.step-1" uid="GEN3 SIMPLIFIED HalfArm1.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED HalfArm1.step" rigid="true">
+<Transform>
+<Rotation>-0.76604444311897857 -4.1317591116653377e-16 0.6427876096865387 0 -1 -6.427876096865387e-16 0.6427876096865387 -4.9240387650610415e-16 0.76604444311897857</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="KR10643_1.step-1" uid="KR10643_1.step-1" grounded="true" entityUid="KR10643_1.step*:*Predeterminado">
+<Transform>
+<Rotation>0.094166352542600001 -0.76023469197495497 0.64278760968656501 0.99241590850741801 0.12292544301891274 -4.0745185003743251e-14 -0.079014951687758003 0.63791264964440797 0.76604444311895625</Rotation>
+<Translation>0.28173934711510701 -0.097425948980844002 0.017298564518059001</Translation>
+</Transform>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED HALF ARM 1.step-1" uid="GEN3 SIMPLIFIED HALF ARM 1.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED HALF ARM 1.step*:*Predeterminado">
+<Transform>
+<Rotation>0.76023469197495497 0.094166352542599738 0.64278760968656523 -0.12292544301891301 0.99241590850741801 -3.9988845568217363e-14 -0.63791264964440797 -0.079014951687758767 0.76604444311895636</Rotation>
+<Translation>0.12180497379087601 -0.071565508905739997 0.15149943818700101</Translation>
+</Transform>
+</Instance>
+<Instance name="KR10643_1.step-2" uid="KR10643_1.step-2" grounded="true" entityUid="KR10643_1.step*:*Predeterminado">
+<Transform>
+<Rotation>0.76023469197495441 0.094166352542599668 0.64278760968656579 -0.12292544301891294 0.99241590850741801 -4.0085990082872065e-14 -0.63791264964440864 -0.079014951687758711 0.76604444311895581</Rotation>
+<Translation>0.121204663293417 -0.077892160322474993 0.15200315850401</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED HalfArm2.step-1" uid="GEN3 SIMPLIFIED HalfArm2.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED HalfArm2.step" rigid="true">
+<Transform>
+<Rotation>0.93969262078590821 0 0.34202014332566905 0 1 0 -0.34202014332566905 0 0.93969262078590821</Rotation>
+<Translation>-0.37587704831436303 0 0.13680805733026699</Translation>
+</Transform>
+<Instance name="KR10643_2.step-2" uid="KR10643_2.step-2" grounded="true" entityUid="KR10643_2.step*:*Predeterminado">
+<Transform>
+<Rotation>-0.34202014332570202 -0.93256590597494982 -0.11551213171172459 4.1000000000000008e-14 0.12292544301891403 -0.9924159085074179 0.9396926207858961 -0.33942623126641863 -0.042042977639666169</Rotation>
+<Translation>0.14116807204668796 0.097425948980845001 0.11261586530859799</Translation>
+</Transform>
+</Instance>
+<Instance name="KR10643_2.step-1" uid="KR10643_2.step-1" grounded="true" entityUid="KR10643_2.step*:*Predeterminado">
+<Transform>
+<Rotation>-0.91748408114375468 0.11551213171172682 0.38063093446961593 0.12281840621522597 0.99241590850741757 -0.0051287070640358215 -0.37833662252358297 0.042042977639667939 -0.92471281384473003</Rotation>
+<Translation>-0.055756870262484937 0.11695973763921499 0.040941047923560986</Translation>
+</Transform>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED HALF ARM 2.step-1" uid="GEN3 SIMPLIFIED HALF ARM 2.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED HALF ARM 2.step*:*Predeterminado">
+<Transform>
+<Rotation>0.93256590597500255 0.11551213171172631 -0.34202014332555852 -0.12292544301891596 0.99241590850741768 2.1767310176556975e-14 0.33942623126627386 0.042042977639667106 0.93969262078594851</Rotation>
+<Translation>-0.055020480422822982 0.12328638905595 0.041209071906013972</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED Forearm.step-1" uid="GEN3 SIMPLIFIED Forearm.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED Forearm.step" rigid="true">
+<Transform>
+<Rotation>0 0 1 0 -1 0 1 0 0</Rotation>
+<Translation>-0.40000000000000002 -0.10000000000000001 0</Translation>
+</Transform>
+<Instance name="KR12943.step-1" uid="KR12943.step-1" grounded="true" entityUid="KR12943.step*:*Predeterminado">
+<Transform>
+<Rotation>3.5999999999999992e-14 0.8444102681552248 -0.53569702167738575 0.99241590850741779 -0.065850793713636099 -0.10379950630268267 -0.12292544301891498 -0.53163424645267687 -0.83800618342426203</Rotation>
+<Translation>0.018353777800211 -0.19690813120737399 0.095753540265509973</Translation>
+</Transform>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED FOREARM_1.step-1" uid="GEN3 SIMPLIFIED FOREARM_1.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED FOREARM_1.step*:*Predeterminado">
+<Transform>
+<Rotation>-0.84441026815522391 3.5742191976467627e-14 -0.53569702167738686 0.065850793713636988 0.99241590850741757 -0.10379950630268421 0.53163424645267787 -0.12292544301891678 -0.83800618342426092</Rotation>
+<Translation>0.194350030709844 -0.210633086222481 -0.015052354478662988</Translation>
+</Transform>
+</Instance>
+<Instance name="KR10643_3.step-1" uid="KR10643_3.step-1" grounded="true" entityUid="KR10643_3.step*:*Predeterminado">
+<Transform>
+<Rotation>-0.84441026815522435 3.5847658895185407e-14 -0.5356970216773862 0.065850793713637029 0.99241590850741757 -0.10379950630268428 0.53163424645267721 -0.12292544301891685 -0.83800618342426136</Rotation>
+<Translation>0.19435003070984599 -0.216959737639215 -0.014268704779418995</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED Base.step-1" uid="GEN3 SIMPLIFIED Base.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED Base.step*:*Predeterminado">
+<Transform>
+<Rotation>3.7e-14 1e-14 1 1 0 -3.7e-14 0 1 -1e-14</Rotation>
+<Translation>0.0053615785118789998 0.083288390779153995 -0.088649969291033998</Translation>
+</Transform>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED Spherical Wrist2.step-1" uid="GEN3 SIMPLIFIED Spherical Wrist2.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED Spherical Wrist2.step" rigid="true">
+<Transform>
+<Rotation>-7.0000000000000005e-14 -1.0000000000000001e-15 -1 0 -1 1.0000000000000001e-15 -1 0 7.0000000000000005e-14</Rotation>
+<Translation>0 0 0.42499999999999899</Translation>
+</Transform>
+<Instance name="KR12943_2.step-1" uid="KR12943_2.step-1" grounded="true" entityUid="KR12943_2.step*:*Predeterminado">
+<Transform>
+<Rotation>3.5099999999999997e-13 0.0018990207336159999 0.99999819685850089 -0.99241590850744399 0.12292522136673607 -0.00023343796463311183 -0.12292544301870301 -0.99241411904113497 0.001884618386669142</Rotation>
+<Translation>0.49588926875609302 -0.102606296747907 0.353097627434242</Translation>
+</Transform>
+</Instance>
+<Instance name="KR12943_2.step-2" uid="KR12943_2.step-2" grounded="true" entityUid="KR12943_2.step*:*Predeterminado">
+<Transform>
+<Rotation>0.0018990207336200004 -6.4999024894348938e-14 0.99999819685850089 0.12292522136696903 0.99241590850741512 -0.00023343796491787837 -0.99241411904110621 0.12292544301893649 0.0018846183866379005</Rotation>
+<Translation>0.49609042262352299 -0.089759159498053007 0.24795459343037801</Translation>
+</Transform>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED WRIST 2.step-1" uid="GEN3 SIMPLIFIED WRIST 2.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED WRIST 2.step*:*Predeterminado">
+<Transform>
+<Rotation>0.0018990207336160008 -3.5199986822896622e-13 0.999998196858501 0.12292522136669305 0.99241590850744943 -0.00023343796463203795 -0.99241411904114041 0.12292544301865999 0.0018846183866692763</Rotation>
+<Translation>0.49589387397755902 -0.10230819685993001 0.35069097292979201</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED Vision.step-1" uid="GEN3 SIMPLIFIED Vision.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED Vision.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.40000000000000002</Translation>
+</Transform>
+<Instance name="KR12943_3.step-1" uid="KR12943_3.step-1" grounded="true" entityUid="KR12943_3.step*:*Predeterminado">
+<Transform>
+<Rotation>0.12292544301870401 0.99241411904113486 -0.001884618386738725 0.99241590850744399 -0.12292522136673707 0.00023343796463266383 -3.5999999999999998e-13 -0.0018990207336849999 -0.999998196858501</Rotation>
+<Translation>-0.38485487924359302 0.106539903831644 -0.47082850009259097</Translation>
+</Transform>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED VISION with interface NO GRIPPER NO CAP.step-1" uid="GEN3 SIMPLIFIED VISION with interface NO GRIPPER NO CAP.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED VISION with interface NO GRIPPER NO CAP.step*:*Predeterminado">
+<Transform>
+<Rotation>-0.0018846183867389998 -0.12292544301870401 -0.99241411904113486 0.00023343796463199998 -0.99241590850744399 0.12292522136673709 -0.99999819685850089 3.6069262365498812e-13 0.0018990207336851909</Rotation>
+<Translation>-0.35557866273187799 0.102913609801324 -0.47088452120423602</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED Spherical Wrist1.step-1" uid="GEN3 SIMPLIFIED Spherical Wrist1.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED Spherical Wrist1.step" rigid="true">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0 0 0.42499999999999999</Translation>
+</Transform>
+<Instance name="KR12943_1.step-1" uid="KR12943_1.step-1" grounded="true" entityUid="KR12943_1.step*:*Predeterminado">
+<Transform>
+<Rotation>3.5999999999999985e-14 -0.84441026815522391 0.53569702167738675 -0.99241590850741768 -0.065850793713636752 -0.10379950630268339 0.12292544301891596 -0.53163424645267787 -0.83800618342426103</Rotation>
+<Translation>-0.40664622219978702 0.096908131207374001 0.30424645973448999</Translation>
+</Transform>
+</Instance>
+<Instance name="GEN3 SIMPLIFIED WRIST 1.step-1" uid="GEN3 SIMPLIFIED WRIST 1.step-1" grounded="true" entityUid="GEN3 SIMPLIFIED WRIST 1.step*:*Predeterminado">
+<Transform>
+<Rotation>-0.84441026815522391 -7.2187496744387164e-14 0.53569702167738709 -0.065850793713678982 0.99241590850741501 -0.10379950630268286 -0.53163424645267288 -0.12292544301893812 -0.83800618342426125</Rotation>
+<Translation>-0.40869395986944501 0.096748439697276006 0.30295721975956602</Translation>
+</Transform>
+</Instance>
+<Instance name="KR12943_1.step-2" uid="KR12943_1.step-2" grounded="true" entityUid="KR12943_1.step*:*Predeterminado">
+<Transform>
+<Rotation>-0.84441026815522391 -7.2187496744387164e-14 0.53569702167738709 -0.065850793713678982 0.99241590850741501 -0.10379950630268286 -0.53163424645267288 -0.12292544301893812 -0.83800618342426125</Rotation>
+<Translation>-0.496090422623505 0.089759159498053007 0.24795459343041201</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Kinova Gen3 Modular Robotic Arm.step" uid="Kinova Gen3 Modular Robotic Arm.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Kinova Gen3 Modular Robotic Arm.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="GEN3 SIMPLIFIED Shoulder.step" uid="GEN3 SIMPLIFIED Shoulder.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="GEN3 SIMPLIFIED Shoulder.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="GEN3 SIMPLIFIED HalfArm1.step" uid="GEN3 SIMPLIFIED HalfArm1.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="GEN3 SIMPLIFIED HalfArm1.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="GEN3 SIMPLIFIED HalfArm2.step" uid="GEN3 SIMPLIFIED HalfArm2.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="GEN3 SIMPLIFIED HalfArm2.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="GEN3 SIMPLIFIED Forearm.step" uid="GEN3 SIMPLIFIED Forearm.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="GEN3 SIMPLIFIED Forearm.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="GEN3 SIMPLIFIED Spherical Wrist2.step" uid="GEN3 SIMPLIFIED Spherical Wrist2.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="GEN3 SIMPLIFIED Spherical Wrist2.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="GEN3 SIMPLIFIED Vision.step" uid="GEN3 SIMPLIFIED Vision.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="GEN3 SIMPLIFIED Vision.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="GEN3 SIMPLIFIED Spherical Wrist1.step" uid="GEN3 SIMPLIFIED Spherical Wrist1.step" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="GEN3 SIMPLIFIED Spherical Wrist1.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="GEN3 SIMPLIFIED Base.step" uid="GEN3 SIMPLIFIED Base.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GEN3 SIMPLIFIED Base.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.0621085059797746</Mass>
+<CenterOfMass>0.00071176879935674355 0.076349918963138752 0.0001066142538025497</CenterOfMass>
+<Inertia>0.0027558233485533508 0.0011530813260343224 0.0027800267651816946 -1.8370598062636098e-06 1.1774416912901632e-07 2.810328041424741e-05</Inertia>
+</MassProperties>
+<GeometryFile name="GEN3 SIMPLIFIED Base.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GEN3 SIMPLIFIED FOREARM_1.step" uid="GEN3 SIMPLIFIED FOREARM_1.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GEN3 SIMPLIFIED FOREARM_1.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10922975851463181</Mass>
+<CenterOfMass>0.0799841343152706 0.014794221604262353 -2.8466386712917526e-06</CenterOfMass>
+<Inertia>0.00011894572856958401 0.00083862851380742337 0.00081602246434342766 -2.6259635442129313e-09 -4.5976822587125524e-08 7.5839602400074231e-05</Inertia>
+</MassProperties>
+<GeometryFile name="GEN3 SIMPLIFIED FOREARM_1.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GEN3 SIMPLIFIED HALF ARM 1.step" uid="GEN3 SIMPLIFIED HALF ARM 1.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GEN3 SIMPLIFIED HALF ARM 1.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13879097744807381</Mass>
+<CenterOfMass>0.10137310535628354 0.012052523671247489 1.6293318122367366e-06</CenterOfMass>
+<Inertia>0.0002041547706026882 0.0011392838818955122 0.0011145419241905315 -1.2705518891218552e-08 2.3635414055847409e-08 0.00010624581684381108</Inertia>
+</MassProperties>
+<GeometryFile name="GEN3 SIMPLIFIED HALF ARM 1.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GEN3 SIMPLIFIED HALF ARM 2.step" uid="GEN3 SIMPLIFIED HALF ARM 2.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GEN3 SIMPLIFIED HALF ARM 2.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13801015027264155</Mass>
+<CenterOfMass>0.08716373455594964 0.011809800258790595 1.8657530091047315e-06</CenterOfMass>
+<Inertia>0.00019519897137697847 0.0011008400754197554 0.0010685851018332347 -7.2032556274072296e-09 2.6419207048003746e-08 7.8727051710703502e-05</Inertia>
+</MassProperties>
+<GeometryFile name="GEN3 SIMPLIFIED HALF ARM 2.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GEN3 SIMPLIFIED SHOULDER_1.step" uid="GEN3 SIMPLIFIED SHOULDER_1.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GEN3 SIMPLIFIED SHOULDER_1.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0098261373664915962</Mass>
+<CenterOfMass>0.12599999999971032 -0.0027876793649442423 -4.2954869683839726e-12</CenterOfMass>
+<Inertia>1.0866504935225317e-05 2.0112319798468533e-05 1.0866504935225331e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="GEN3 SIMPLIFIED SHOULDER_1.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GEN3 SIMPLIFIED VISION with interface NO GRIPPER NO CAP.step" uid="GEN3 SIMPLIFIED VISION with interface NO GRIPPER NO CAP.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GEN3 SIMPLIFIED VISION with interface NO GRIPPER NO CAP.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.066158425515843319</Mass>
+<CenterOfMass>-0.00034830489431975737 0.02143216086225487 0.040294001915810541</CenterOfMass>
+<Inertia>9.2017043743776908e-05 5.5831319950032744e-05 0.00011593271284509521 -9.3250129493607928e-06 1.5390903948639092e-07 -4.2309991363630605e-07</Inertia>
+</MassProperties>
+<GeometryFile name="GEN3 SIMPLIFIED VISION with interface NO GRIPPER NO CAP.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GEN3 SIMPLIFIED WRIST 1.step" uid="GEN3 SIMPLIFIED WRIST 1.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GEN3 SIMPLIFIED WRIST 1.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.060696791465710408</Mass>
+<CenterOfMass>0.066953051492496835 0.013459003202971141 1.0269350718815065e-06</CenterOfMass>
+<Inertia>5.8894663492752915e-05 0.000140531129634746 0.00013813984768630815 -1.802175290452254e-09 -4.3392357331443512e-11 -2.2081414529464314e-05</Inertia>
+</MassProperties>
+<GeometryFile name="GEN3 SIMPLIFIED WRIST 1.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GEN3 SIMPLIFIED WRIST 2.step" uid="GEN3 SIMPLIFIED WRIST 2.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GEN3 SIMPLIFIED WRIST 2.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.060699514051557338</Mass>
+<CenterOfMass>0.05668638304212268 0.013349194094073143 -5.4128529384104349e-07</CenterOfMass>
+<Inertia>6.2244484257648896e-05 0.00015061172465169757 0.00015157068793015602 -1.2521097616678369e-09 1.6406862211152808e-09 -3.0157417098726251e-05</Inertia>
+</MassProperties>
+<GeometryFile name="GEN3 SIMPLIFIED WRIST 2.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="KR10643.step" uid="KR10643.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="KR10643.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.15031054770855454</Mass>
+<CenterOfMass>0 0.015049999999999664 0</CenterOfMass>
+<Inertia>7.0973166068392409e-05 0.00011950922057769566 7.0973166068392409e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="KR10643.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="KR10643_1.step" uid="KR10643_1.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="KR10643_1.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.15031054770855454</Mass>
+<CenterOfMass>0 0.015049999999999664 0</CenterOfMass>
+<Inertia>7.0973166068392409e-05 0.00011950922057769566 7.0973166068392409e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="KR10643_1.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="KR10643_2.step" uid="KR10643_2.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="KR10643_2.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.15031054770855454</Mass>
+<CenterOfMass>0 0.015049999999999664 0</CenterOfMass>
+<Inertia>7.0973166068392409e-05 0.00011950922057769566 7.0973166068392409e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="KR10643_2.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="KR10643_3.step" uid="KR10643_3.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="KR10643_3.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.15031054770855454</Mass>
+<CenterOfMass>0 0.015049999999999664 0</CenterOfMass>
+<Inertia>7.0973166068392422e-05 0.00011950922057769566 7.0973166068392409e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="KR10643_3.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="KR12943.step" uid="KR12943.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="KR12943.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.095058310512319957</Mass>
+<CenterOfMass>0 0.016 0</CenterOfMass>
+<Inertia>3.0582535930502681e-05 4.494178686690276e-05 3.0582535930502681e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="KR12943.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="KR12943_1.step" uid="KR12943_1.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="KR12943_1.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.095058310512319957</Mass>
+<CenterOfMass>0 0.016 0</CenterOfMass>
+<Inertia>3.0582535930502681e-05 4.494178686690276e-05 3.0582535930502681e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="KR12943_1.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="KR12943_2.step" uid="KR12943_2.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="KR12943_2.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.095058310512319957</Mass>
+<CenterOfMass>0 0.016 0</CenterOfMass>
+<Inertia>3.0582535930502681e-05 4.494178686690276e-05 3.0582535930502681e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="KR12943_2.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="KR12943_3.step" uid="KR12943_3.step*:*Predeterminado" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="KR12943_3.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.095058310512319957</Mass>
+<CenterOfMass>0 0.016 0</CenterOfMass>
+<Inertia>3.0582535930502681e-05 4.494178686690276e-05 3.0582535930502681e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="KR12943_3.step_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Diffuse r="0.96470588235294119" g="0.96470588235294119" b="0.95294117647058818" a="1"/>
+<Specular r="0.4823529411764706" g="0.4823529411764706" b="0.47647058823529409" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

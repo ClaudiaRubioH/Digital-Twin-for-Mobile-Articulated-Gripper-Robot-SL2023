@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/27/23||18:47:52" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Four_wheeled_base" uid="Four_wheeled_base" version="141">
+<AssemblyFile name="Four_wheeled_base.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Base-1" uid="Base-1" grounded="true" entityUid="Base*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.057829436219167862 0.019155339496481547 0.41600000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel-2" uid="Wheel-2" entityUid="Wheel*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 -3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15</Rotation>
+<Translation>-0.036171042961812949 -0.0011806829667604061 0.24679075426886488</Translation>
+</Transform>
+</Instance>
+<Instance name="Coupler-1" uid="Coupler-1" entityUid="Coupler*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.055765285657158138 -0.011189533272377507 0.51207192672691515</Translation>
+</Transform>
+</Instance>
+<Instance name="Coupler-2" uid="Coupler-2" entityUid="Coupler*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 -1 6.9829626776862667e-15 0 -6.9829626776862667e-15 -1</Rotation>
+<Translation>-0.055765285657158152 0.0088104667276202552 0.31992807327308503</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel-3" uid="Wheel-3" entityUid="Wheel*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>0.15182895703818672 -0.0011983835780005065 0.58520924573113531</Translation>
+</Transform>
+</Instance>
+<Instance name="Coupler-3" uid="Coupler-3" entityUid="Coupler*:*Predeterminado">
+<Transform>
+<Rotation>-1 6.9829626776862667e-15 0 -6.9829626776862667e-15 -1 0 0 0 1</Rotation>
+<Translation>0.1714241580954935 0.0088104667276239154 0.51207192672691515</Translation>
+</Transform>
+</Instance>
+<Instance name="Coupler-4" uid="Coupler-4" entityUid="Coupler*:*Predeterminado">
+<Transform>
+<Rotation>-1 6.9829626776862667e-15 0 6.9829626776862667e-15 1 6.9829626776862667e-15 0 6.9829626776862667e-15 -1</Rotation>
+<Translation>0.17142415809549361 -0.011189533272382285 0.31992807327308492</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel-4" uid="Wheel-4" entityUid="Wheel*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 -3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15</Rotation>
+<Translation>0.15182895703818683 -0.0011806829667625795 0.24679075426886493</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel-1" uid="Wheel-1" entityUid="Wheel*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.036171042961812928 -0.0011983835780023555 0.58520924573113542</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 -0.00034487276885905582 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-1</Uid>
+</InstancePath>
+<Position>-0.0044052781236739655 0.029999999999999999 -0.00015554504040493633</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.028000000000000004 -0.040344872768859057 0.080916381686510108</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-1</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.029999999999999999 -0.01515554504040495</Position>
+<Axis>-1.1564823173178715e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.057999999999999996 -0.00034487276885905582 0.1117107901822022</Position>
+<Axis>-1 0 -6.9388939039072333e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-1</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.029999999999999999 0.014844454959595077</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 -0.00034487276885905582 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-2</Uid>
+</InstancePath>
+<Position>-0.0044052781236739655 -0.0099999999999999985 -0.00015554504040493633</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.028000000000000004 -0.040344872768859057 -0.080916381686510108</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-2</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.030000000000000002 -0.01515554504040495</Position>
+<Axis>-1.1564823173178715e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.057999999999999996 -0.00034487276885905582 -0.11171079018220215</Position>
+<Axis>-1 0 6.9388939039072333e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-2</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.029999999999999999 0.014844454959595077</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 -0.00034487276885905582 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-4</Uid>
+</InstancePath>
+<Position>-0.0044052781236739447 0.029999999999999999 -0.00015554504040499184</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.028000000000000025 -0.040344872768859057 -0.080916381686510108</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-4</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.029999999999999995 -0.01515554504040495</Position>
+<Axis>-1.1564823173178715e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.058000000000000024 -0.00034487276885905582 -0.11171079018220215</Position>
+<Axis>1 0 6.9388939039072333e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-4</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.029999999999999999 0.014844454959595021</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 -0.00034487276885905582 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-3</Uid>
+</InstancePath>
+<Position>-0.0044052781236739724 -0.0099999999999999985 -0.00015554504040493633</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.028000000000000025 -0.040344872768859057 0.080916381686510108</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-3</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.029999999999999999 -0.01515554504040495</Position>
+<Axis>-1.1564823173178715e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.058000000000000024 -0.00034487276885905582 0.1117107901822022</Position>
+<Axis>1 0 -6.9388939039072333e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-3</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.029999999999999999 0.014844454959595077</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Coupler-2</Uid>
+</InstancePath>
+<Position>0.019594721876326028 0.010000000000000002 0.038844454959595098</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Wheel-2</Uid>
+</InstancePath>
+<Position>4.7918098082522231e-07 0.03429286404462506 8.8503056184007292e-06</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-2</Uid>
+</InstancePath>
+<Position>0.019594721876326028 0.010000000000000002 0.038844454959595098</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wheel-2</Uid>
+</InstancePath>
+<Position>4.7918098082522231e-07 0.03429286404462506 8.8503056184007292e-06</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Coupler-4</Uid>
+</InstancePath>
+<Position>0.019594721876326049 0.01 0.038844454959595043</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Wheel-4</Uid>
+</InstancePath>
+<Position>4.7918098081134453e-07 0.034292864044625004 8.8503056184007292e-06</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-4</Uid>
+</InstancePath>
+<Position>0.019594721876326049 0.01 0.038844454959595043</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wheel-4</Uid>
+</InstancePath>
+<Position>4.7918098081134453e-07 0.034292864044625004 8.8503056184007292e-06</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Coupler-1</Uid>
+</InstancePath>
+<Position>0.019594721876326028 0.01 0.038844454959595098</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Wheel-1</Uid>
+</InstancePath>
+<Position>4.7918098082522231e-07 0.03429286404462506 8.8503056184007292e-06</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-1</Uid>
+</InstancePath>
+<Position>0.019594721876326028 0.01 0.038844454959595098</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wheel-1</Uid>
+</InstancePath>
+<Position>4.7918098082522231e-07 0.03429286404462506 8.8503056184007292e-06</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Coupler-3</Uid>
+</InstancePath>
+<Position>0.019594721876326021 0.01 0.038844454959595098</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Wheel-3</Uid>
+</InstancePath>
+<Position>4.7918098081134453e-07 0.03429286404462506 8.8503056184007292e-06</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-3</Uid>
+</InstancePath>
+<Position>0.019594721876326021 0.01 0.038844454959595098</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Wheel-3</Uid>
+</InstancePath>
+<Position>4.7918098081134453e-07 0.03429286404462506 8.8503056184007292e-06</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base" uid="Base*:*Predeterminado" version="147">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.2434038555402951</Mass>
+<CenterOfMass>0 0.00034487276885905132 0</CenterOfMass>
+<Inertia>0.0069595166279034833 0.025239515420899427 0.018576084767985838 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Coupler" uid="Coupler*:*Predeterminado" version="159">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Coupler.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.16359827627954551</Mass>
+<CenterOfMass>0.0044052781236739655 0.0099999999999999985 0.00015554504040492123</CenterOfMass>
+<Inertia>3.3241506342814061e-05 0.00027397473287627 0.00028167260076687067 0 -7.7304852746822828e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="Coupler_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Wheel" uid="Wheel*:*Predeterminado" version="190">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.50327590935171629</Mass>
+<CenterOfMass>-3.2524636671611101e-07 0.011961839894673041 -6.0071855227810428e-06</CenterOfMass>
+<Inertia>0.001140936144276938 0.0020887777671193554 0.0011405070956067996 -9.30987295060817e-08 2.42436222096297e-07 -8.4412413953762226e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Wheel_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
