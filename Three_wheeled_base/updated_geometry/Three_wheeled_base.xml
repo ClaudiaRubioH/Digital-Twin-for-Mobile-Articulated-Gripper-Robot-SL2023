@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/08/23||14:10:18" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Three_wheeled_base" uid="Three_wheeled_base" version="206">
+<AssemblyFile name="Three_wheeled_base.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Base-1" uid="Base-1" grounded="true" entityUid="Base*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0058411074140616859 0.01006722214987793 0.41600001786290569</Translation>
+</Transform>
+</Instance>
+<Instance name="Big_wheel-2" uid="Big_wheel-2" entityUid="Big_wheel*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1.04744440165294e-14 1 0 -1 1.04744440165294e-14</Rotation>
+<Translation>-0.26659031437607489 -0.012113524990004967 0.73221300401461098</Translation>
+</Transform>
+</Instance>
+<Instance name="Coupler-2" uid="Coupler-2" entityUid="Coupler*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.2861845570714201 -0.022104674684378892 0.65907568501039104</Translation>
+</Transform>
+</Instance>
+<Instance name="Big_wheel-1" uid="Big_wheel-1" entityUid="Big_wheel*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 -3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15</Rotation>
+<Translation>-0.26659031437607494 -0.012095824378760835 0.099787275925360852</Translation>
+</Transform>
+</Instance>
+<Instance name="Caster_coupler-1" uid="Caster_coupler-1" entityUid="Caster_coupler*:*Predeterminado">
+<Transform>
+<Rotation>-1 0 0 0 -1 0 0 0 1</Rotation>
+<Translation>0.25584110741406191 0.0058953253156211116 0.41600001786290558</Translation>
+</Transform>
+</Instance>
+<Instance name="Coupler-1" uid="Coupler-1" entityUid="Coupler*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 -1 6.9829626776862667e-15 0 -6.9829626776862667e-15 -1</Rotation>
+<Translation>-0.28618455707142021 -0.0021046746843800968 0.17292459492958098</Translation>
+</Transform>
+</Instance>
+<Instance name="Small_wheel-2" uid="Small_wheel-2" entityUid="Small_wheel*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 -3.4914813388431334e-15 -1 0 1 -3.4914813388431334e-15</Rotation>
+<Translation>0.26614131209756176 -0.072424146797743685 0.41600001786290536</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.24999999999999994 -0.006171896834256823 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Caster_coupler-1</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000005 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.24999999999999994 -0.0041718968342568229 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Caster_coupler-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.20643094260915576 -0.042171896834256824 -0.22791987789291973</Position>
+<Axis>-1.5419764230904949e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-1</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.030000000000000006 -0.015155545040404922</Position>
+<Axis>-1.1564823173178715e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.029569057390844117 -0.0021718968342568229 1.2210708033588702e-07</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-1</Uid>
+</InstancePath>
+<Position>-0.0044052781236739724 -0.01 -0.00015554504040490857</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.23643094260915579 -0.0021718968342568229 -0.25893987789291972</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-1</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.029999999999999999 0.014844454959595077</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente10">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Big_wheel-1</Uid>
+</InstancePath>
+<Position>4.791809808391001e-07 0.034292864044625046 8.8503056183998619e-06</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Coupler-1</Uid>
+</InstancePath>
+<Position>0.019594721876326049 0.01 0.038844454959595098</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.029569057390844117 -0.0021718968342568229 1.2210708033588702e-07</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-2</Uid>
+</InstancePath>
+<Position>-0.0044052781236739724 0.029999999999999999 -0.00015554504040493633</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.20643094260915576 -0.042171896834256824 0.2279201221070804</Position>
+<Axis>-1.5419764230904949e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-2</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.029999999999999999 -0.01515554504040495</Position>
+<Axis>-1.1564823173178715e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente13">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Big_wheel-2</Uid>
+</InstancePath>
+<Position>4.791809808391001e-07 0.03429286404462506 8.8503056183998619e-06</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Coupler-2</Uid>
+</InstancePath>
+<Position>0.019594721876326049 0.01 0.038844454959595098</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Caster_coupler-1</Uid>
+</InstancePath>
+<Position>-0.010300204683499792 0.078319472113363542 -0.017500000000000016</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Small_wheel-2</Uid>
+</InstancePath>
+<Position>0 0.009000000000000008 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distancia1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Small_wheel-2</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000044 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Caster_coupler-1</Uid>
+</InstancePath>
+<Position>-0.021608293717939375 0.08692774110376289 0.0060000000000000053</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincidente15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.23643094260915579 -0.0021718968342568229 0.25894012210708045</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Coupler-2</Uid>
+</InstancePath>
+<Position>0.055594721876326025 0.029999999999999999 0.014844454959595077</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base" uid="Base*:*Predeterminado" version="395">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.0939511325290869</Mass>
+<CenterOfMass>-0.029173909734820425 0.0021637237870976793 -1.2193449219468822e-07</CenterOfMass>
+<Inertia>0.096866513142333868 0.29024862898909798 0.19360808199441237 -3.334322541978893e-09 1.449314887376242e-07 -0.00065784026696963848</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Big_wheel" uid="Big_wheel*:*Predeterminado" version="190">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Big_wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.50327590935171629</Mass>
+<CenterOfMass>-3.2524636671591053e-07 0.011961839894673039 -6.0071855227816416e-06</CenterOfMass>
+<Inertia>0.0011409361442769382 0.0020887777671193559 0.0011405070956067996 -9.3098729506085168e-08 2.4243622209628054e-07 -8.4412413953775064e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Big_wheel_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="0" a="1"/>
+<Diffuse r="1" g="1" b="0" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Caster_coupler" uid="Caster_coupler*:*Predeterminado" version="342">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Caster_coupler.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.022416798235896304</Mass>
+<CenterOfMass>-0.0036394132087487745 0.032758494868609787 -2.0301708256530861e-08</CenterOfMass>
+<Inertia>1.7554252447405236e-05 2.8993416987258613e-06 1.7266577010391765e-05 -1.9465873160362861e-12 -8.048000828748546e-12 2.3000592759744826e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Caster_coupler_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Coupler" uid="Coupler*:*Predeterminado" version="157">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Coupler.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.16359827627954548</Mass>
+<CenterOfMass>0.004405278123673969 0.0099999999999999985 0.00015554504040491866</CenterOfMass>
+<Inertia>3.3241506342814054e-05 0.00027397473287626994 0.00028167260076687067 0 -7.730485274682233e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="Coupler_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Small_wheel" uid="Small_wheel*:*Predeterminado" version="218">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Small_wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0086467766361177159</Mass>
+<CenterOfMass>4.3764656051184042e-06 -1.0503643732177265e-10 -7.674305686305712e-06</CenterOfMass>
+<Inertia>1.0196057725863401e-06 1.9088997050658125e-06 1.0191752771387846e-06 1.4377584841912111e-14 1.4384301036944689e-10 -3.3527305279967388e-14</Inertia>
+</MassProperties>
+<GeometryFile name="Small_wheel_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
