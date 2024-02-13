@@ -5,6 +5,7 @@ This is the repository for the Software Lab project in 2023.
 The project Digital Twin for a Mobile Articulated Gripper Robot simulates the functionalities of a mobile robot equipped with a robotic arm gripper in a construction scenario, using the software [Simscape&trade;] [Multibody&trade;] from [MathWorks&reg;].
 In this case it efficiently retrieves bricks from Area A and promptly transport and position them in Area B for the purpose of constructing a wall.
 \
+\
 ![Workflow](images/SL_workflow_diagram.png)
 
 # Mobile base
