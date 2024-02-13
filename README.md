@@ -31,7 +31,7 @@ The control approach chosen for the arm and gripper is motion control, which mea
 ![Brick Picking](images/picking_brick.gif)
 
 **Control algorithm**\
-Once the mobile platform reaches the brick storage area or construction area, the control algorithm of the arm is called. Initially, the laying position is given, and the picking position of bricks is acquired by the camera on Kinova Gen3, which is mimicked by a transform sensor block in the model. Next, according to this position, paths are planned by setting waypoints. Then, an inverse kinematics solver in MATLAB®. is utilized to compute joint angles at each waypoint. Finally, the trajectories are prescribed by the trapezoidal velocity generator.
+Once the mobile platform reaches the brick storage area or construction area, the control algorithm of the arm is called. Initially, the laying position is given, and the picking position of bricks is acquired by the camera on Kinova Gen3, which is mimicked by a transform sensor block in the model. Next, according to this position, paths are planned by setting waypoints. Then, an inverse kinematics solver in MATLAB is utilized to compute joint angles at each waypoint. Finally, the trajectories are prescribed by the trapezoidal velocity generator.
 
 # Task scheduler
 
