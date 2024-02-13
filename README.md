@@ -28,7 +28,7 @@ By assessing the error between the monitored and required velocities and utilizi
 **Motion Control**\
 The control approach chosen for the arm and gripper is motion control, which means joint angle and its derivatives are given to the joints to drive them. This control method is more robust, more precise and needs less computation effort compared to torque control because motion control drives joints to the exact angle needed and the error is mostly given by the inverse kinematics solver chosen. But on the other hand, this method is less representative of the real-world robot because the real arm is driven by torque provided by the motor. Although this method is less representative, it is still possible to control the real-world robotic arm by using it. All we must do is computing the torque needed for controlling each joint. 
 
-![Brick Picking](images/TaskSchedulerText.gif)
+![Brick Picking](images/picking_brick.gif)
 
 **Control algorithm**\
 Once the mobile platform reaches the brick storage area or construction area, the control algorithm of the arm is called. Initially, the laying position is given, and the picking position of bricks is acquired by the camera on Kinova Gen3, which is mimicked by a transform sensor block in the model. Next, according to this position, paths are planned by setting waypoints. Then, an inverse kinematics solver in MATLAB®. is utilized to compute joint angles at each waypoint. Finally, the trajectories are prescribed by the trapezoidal velocity generator.
