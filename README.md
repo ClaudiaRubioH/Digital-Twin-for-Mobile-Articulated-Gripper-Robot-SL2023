@@ -62,6 +62,6 @@ To run the executables:
 
 # Authors
 Please for further information, contact the authors:
-- Chi-Chia Tung <claudrubher99@gmail.com>
-- Claudia Rubio Hervás <ge85qel@mytum.de>
+- Chi-Chia Tung <ge85qel@mytum.de>
+- Claudia Rubio Hervás <claudrubher99@gmail.com>
 - Minas Apostolakis <minas.apostolakis@gmail.com>
