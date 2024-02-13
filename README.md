@@ -14,7 +14,7 @@ The model has been generated with SOLIDWORKS®, which has a functionality that e
 Regarding contact modelling, the Spatial Contact Force Block from Simscape Multibody has been used for its simulation. Contact is an essential part of the mobile base performance, not just due to basic functionality, but also tests the stability of the geometry, as in the first draft the platform was supposed to be driven over a road with obstacles. However, challenges like undetected contact, simulation crashes due to numerical singularities, or neglecting concave obstacles by the algorithm arose.
 \
 \
-![Contact modelling problem](images/ezgif.com-video-to-gif-converter.gif)\
+![Contact modelling problem](images/ezgif.com-video-to-gif-converter.gif)
 \
 These issues were resolved by enforcing pointwise contact, using a cloud of points to represent obstacles on a clear road. However, this solution still had a high computational effort, and the road remained clear in the final version.
 
@@ -28,7 +28,7 @@ By assessing the error between the monitored and required velocities and utilizi
 **Motion Control**\
 The control approach chosen for the arm and gripper is motion control, which means joint angle and its derivatives are given to the joints to drive them. This control method is more robust, more precise and needs less computation effort compared to torque control because motion control drives joints to the exact angle needed and the error is mostly given by the inverse kinematics solver chosen. But on the other hand, this method is less representative of the real-world robot because the real arm is driven by torque provided by the motor. Although this method is less representative, it is still possible to control the real-world robotic arm by using it. All we must do is computing the torque needed for controlling each joint. 
 
-![Brick Picking](images/TaskSchedulerText.gif)\
+![Brick Picking](images/TaskSchedulerText.gif)
 
 **Control algorithm**\
 Once the mobile platform reaches the brick storage area or construction area, the control algorithm of the arm is called. Initially, the laying position is given, and the picking position of bricks is acquired by the camera on Kinova Gen3, which is mimicked by a transform sensor block in the model. Next, according to this position, paths are planned by setting waypoints. Then, an inverse kinematics solver in MATLAB®. is utilized to compute joint angles at each waypoint. Finally, the trajectories are prescribed by the trapezoidal velocity generator.
@@ -39,7 +39,7 @@ The Task Scheduler function completed the need for task management. When navigat
 is required, it efficiently idles the robotic arm module while activating the mobile base.
 Conversely, for pick-and-place operations, it does the opposite.
 
-![TaskScheduler](images/TasckScheduler.gif)\
+![TaskScheduler](images/TaskSchedulerText.gif)
 
 # Software prerequisites
 - MATLAB R2023b or higher
