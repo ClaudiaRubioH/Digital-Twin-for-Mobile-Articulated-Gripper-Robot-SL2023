@@ -13,7 +13,9 @@ The model has been generated with SOLIDWORKS®, which has a functionality that e
 **Contact modelling**\
 Regarding contact modelling, the Spatial Contact Force Block from Simscape Multibody has been used for its simulation. Contact is an essential part of the mobile base performance, not just due to basic functionality, but also tests the stability of the geometry, as in the first draft the platform was supposed to be driven over a road with obstacles. However, challenges like undetected contact, simulation crashes due to numerical singularities, or neglecting concave obstacles by the algorithm arose.
 \
+\
 ![Contact modelling problem](images/ezgif.com-video-to-gif-converter.gif)\
+\
 These issues were resolved by enforcing pointwise contact, using a cloud of points to represent obstacles on a clear road. However, this solution still had a high computational effort, and the road remained clear in the final version.
 
 
