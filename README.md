@@ -2,7 +2,7 @@
 This is the repository for the Software Lab project in 2023.
 \
 # Description
-The project Digital Twin for a Mobile Articulated Gripper Robot simulates the functionalities of a mobile robot equipped with a robotic arm gripper in a construction scenario, using the software [Simscape&trade;] [Multibody&trade;] from [MathWorks&reg;].
+The project Digital Twin for a Mobile Articulated Gripper Robot simulates the functionalities of a mobile robot equipped with a robotic arm gripper in a construction scenario, using the software Simscape&trade; Multibody&trade; from MathWorks&reg;.
 In this case it efficiently retrieves bricks from Area A and promptly transport and position them in Area B for the purpose of constructing a wall.
 \
 \
@@ -45,11 +45,11 @@ Conversely, for pick-and-place operations, it does the opposite.
 ![TaskScheduler](images/TaskSchedulerText.gif)
 
 # Software prerequisites
-- MATLAB R2023b or higher
-- Simulink version 23.2 or compatible
-- Simscape version 23.2 or compatible
-- Simscape Multibody version 23.2 or compatible
-- Simscape Electrical version 23.2 or compatible
+- MATLAB&reg; R2023b or higher
+- Simulink&reg; version 23.2 or compatible
+- Simscape&trade; version 23.2 or compatible
+- Simscape&trade; Multibody&trade; version 23.2 or compatible
+- Simscape&trade; Electrical&trade; version 23.2 or compatible
 - Navigation Toolbox version 23.2 or compatible
 - Robotics System Toolbox version 23.2 or compatible 
 
