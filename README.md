@@ -9,7 +9,8 @@ Prerequisites:
 - Simscape version 23.2 or compatible
 - Simscape Multibody version 23.2 or compatible
 - Simscape Electrical version 23.2 or compatible
-- Navigation Toolbox version 23.2 or compatible 
+- Navigation Toolbox version 23.2 or compatible
+- Robotics System Toolbox version 23.2 or compatible 
 
 To run the executables:
  1. Navigate to Digital-Twin-for-Mobile-Articulated-Gripper-Robot-SL2023\Three_wheeled
