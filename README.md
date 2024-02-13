@@ -13,9 +13,9 @@ The model has been generated with SOLIDWORKS®, which has a functionality that e
 **Contact modelling**\
 Regarding contact modelling, the Spatial Contact Force Block from Simscape Multibody has been used for its simulation. Contact is an essential part of the mobile base performance, not just due to basic functionality, but also tests the stability of the geometry, as in the first draft the platform was supposed to be driven over a road with obstacles. However, challenges like undetected contact, simulation crashes due to numerical singularities, or neglecting concave obstacles by the algorithm arose.
 \
-![Contact modelling problem](https://imgur.com/a/kG0TPtZ)\
+![Contact modelling problem](images/ezgif.com-video-to-gif-converter.gif)\
 These issues were resolved by enforcing pointwise contact, using a cloud of points to represent obstacles on a clear road. However, this solution still had a high computational effort, and the road remained clear in the final version.
-\
+
 
 **Motion & power control**\
 To execute the path following task the Pure Pursuit Block has been used. It calculates the required translational and angular velocities for the base to reach a point, using the monitored lookahead distance to the user-defined waypoints. The output of this block is then used to determine the required angular velocity for each wheel. However, the algorithm lacks the ability to stabilize the robot upon reaching its goal. Consequently, extra control over the wheels' velocity was implemented for this purpose.
