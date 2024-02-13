@@ -23,6 +23,7 @@ These issues were resolved by enforcing pointwise contact, using a cloud of poin
 To execute the path following task the Pure Pursuit Block has been used. It calculates the required translational and angular velocities for the base to reach a point, using the monitored lookahead distance to the user-defined waypoints. The output of this block is then used to determine the required angular velocity for each wheel. However, the algorithm lacks the ability to stabilize the robot upon reaching its goal. Consequently, extra control over the wheels' velocity was implemented for this purpose.
 By assessing the error between the monitored and required velocities and utilizing a proportional controller, the torque for the wheels is calculated. Each rear wheel is driven by an electric circuit, incorporating Battery and Motor & Drive blocks. This last component transforms the required torque value into a mechanical rotation signal that the wheel subsequently receives as motion input.
 
+# Robotic Arm and Gripper
 
 # Software prerequisites
 - MATLAB R2023b or higher
