@@ -55,10 +55,9 @@ Conversely, for pick-and-place operations, it does the opposite.
 
 # Execution instructions
 To run the executables:
- 1. Navigate to **``Digital-Twin-for-Mobile-Articulated-Gripper-Robot-SL2023\Three_wheeled
- _base``**
- 2. Run **``Three_wheeled_base_LOAD _DATA.m``**
- 3. Run **``sm_kinovaGen3 _arm.slx``**
+ 1. Navigate to **``Digital-Twin-for-Mobile-Articulated-Gripper-Robot-SL2023\Three_wheeled_base``**
+ 2. Run **``Three_wheeled_base_LOAD_DATA.m``**
+ 3. Run **``sm_kinovaGen3_arm.slx``**
 
 # Authors
 Please for further information, contact the authors:
