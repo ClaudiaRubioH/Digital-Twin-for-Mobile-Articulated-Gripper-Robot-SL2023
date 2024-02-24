@@ -50,14 +50,11 @@ Conversely, for pick-and-place operations, it does the opposite.
 - Simscape&trade; version 23.2 or compatible
 - Simscape&trade; Multibody&trade; version 23.2 or compatible
 - Simscape&trade; Electrical&trade; version 23.2 or compatible
-- Navigation Toolbox version 23.2 or compatible
+- Robotics System Toolbox version 23.2 or compatible
 - Robotics System Toolbox version 23.2 or compatible 
 
 # Execution instructions
-To run the executables:
- 1. Navigate to **``Digital-Twin-for-Mobile-Articulated-Gripper-Robot-SL2023\Three_wheeled_base``**
- 2. Run **``Three_wheeled_base_LOAD_DATA.m``**
- 3. Run **``sm_kinovaGen3_arm.slx``**
+Open the project **``MobileArticulatedRobot.prj``**
 
 # Authors
 Please for further information, contact the authors:
