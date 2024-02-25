@@ -2,7 +2,7 @@
 This is the repository for the Software Lab project in 2023.
 
 * View on [MATLAB Central File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/159638-digital-twin-for-mobile-articulated-gripper-robot-sl2023)
-* Try it in [MATLAB Online](https://matlab.mathworks.com/open/fileexchange/v1?id=159638)
+* Try it in [MATLAB Online](https://matlab.mathworks.com/open/fileexchange/v1?id=159638&project=MobileArticulatedRobot.prj)
 
 # Description
 The project Digital Twin for a Mobile Articulated Gripper Robot simulates the functionalities of a mobile robot equipped with a robotic arm gripper in a construction scenario, using the software Simscape&trade; Multibody&trade; from MathWorks&reg;.
