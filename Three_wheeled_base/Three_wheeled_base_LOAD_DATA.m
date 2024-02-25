@@ -237,3 +237,23 @@ brick_place_global_xy(2,:) =  brick_place_global_xy(1,:) + [0.22 0];
 new_column = -0.03*ones(size(brick_place_global_xy, 1), 1);
 brick_place_global_xy = [brick_place_global_xy, new_column];
 brick_place_global_xy(3,:) =  brick_place_global_xy(1,:) + [0.11 0 0.12];
+
+%% brick placing point cloud
+brick_ptcldB=[...
+    0.0250    0.1000   -0.0500;
+   -0.0250    0.1000   -0.0500;
+    0.0250   -0.1000   -0.0500;
+   -0.0250   -0.1000   -0.0500;
+   -0.0250    0        -0.0500;
+    0         0        -0.0500;
+    0.0250    0        -0.0500
+    0         0.1      -0.0500
+    0        -0.1      -0.0500
+   ];
+brick_ptcldU = brick_ptcldB.*[1 1 -1];
+
+brick_ptcld = [brick_ptcldB;brick_ptcldU].*[0.95 0.95 1];
+
+%% Ground friction
+mus_brickGround = 0.9;
+mud_brickGround = 0.7;
